@@ -1,10 +1,10 @@
 package org.example;
 
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 
-@AllArgsConstructor
 @Getter
+@Builder
 public class Pyramid implements Shape {
     private final double baseLength;
     private final double height;
